@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block app_content %}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 offset-md-1">
+        <img src="../static/graph_images/{{ FILENAME }}" alt="Graph" id="plot_points">
+      </div>
+    </div>
+  </div>
+{% endblock %}

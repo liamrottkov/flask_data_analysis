@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block app_content %}
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12" id="my_df">
+        {{ table_html|safe }}
+      </div>
+    </div>
+  </div>
+{% endblock %}
